@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+
+yarn.lock
+yarn-error.log
+
+
+# my blog config
+Plain/images/icon/
+sw.js

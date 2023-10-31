@@ -1,0 +1,21 @@
+{
+  "name": "OZOO",
+  "short_name": "OZOO",
+  "scope": "/",
+  "start_url": "/?from=pwa-beta",
+  "display": "standalone",
+  "description": "遍身罗绮者，不是养蚕人。",
+  "dir": "rtl",
+  "lang": "cn",
+  "orientation": "portrait",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "icons": [
+    {
+      "src": "https://i.loli.net/2018/09/19/5ba1b923c6a29.png",
+      "sizes": "32x32 57x57 60x60 76x76 72x72 96x96 114x114 120x120 144x144 152x152 128x128 192x192 512x512",
+      "type": "image/png"
+    }
+  ],
+  "prefer_related_applications": false
+}
