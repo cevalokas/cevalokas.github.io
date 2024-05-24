@@ -1,9 +1,5 @@
-source "https://rubygems.org"
-
-gem "kramdown"
-gem "kramdown-parser-gfm"
-gem "rouge"
-gem "jekyll"
-gem "jekyll-paginate"
-gem "jekyll-paginate-content"
-gem "json"
+source 'https://rubygems.org'
+gem 'jekyll'
+gem 'redcarpet'
+gem 'jekyll-paginate'
+gem 'jekyll-sitemap'

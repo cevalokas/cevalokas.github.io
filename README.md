@@ -1,224 +1,115 @@
-# Jekflix Template
 
-![Jekflix Template Cover Image](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1505354182/jekflix-logo_mfngps.png)
+[leopard](http://leopardpan.cn) 是一个简洁的博客模板，响应式主题， 适配了电脑、手机各种屏幕，看效果直接点击下面链接
+ 
+ * [博客链接](http://leopardpan.cn) （部署在国内，访问更快）         
+ * [Demo链接](http://leopardpan.github.io/) （部署在github page）         
 
-See the [demo here](https://jekflix.rossener.com/).
+如果你喜欢请 Star ，你的 Star 是我持续更新的动力, 谢谢 😄.
+ 
+### 你在搭建个人博客遇到任何问题都可以找我
 
-## What is it?
+遇到解决不了的问题 [需要技术支持联系我](http://leopardpan.cn/support/)
 
-A theme for Jekyll inspired by Netflix panel for who loves movies and series and would like to have a blog with this cool appearance.
 
-![Jekflix Screenshot Image](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566390829/jekflix-screenshot-2_zfiog2.jpg)
+### 环境要求
 
-## Features
+* Jekyll 支持: Mac 、Windows、ubuntu 、Linux 操作系统                     
+* Jekyll 需要依赖: Ruby、bundler
 
-- [Live Search](docs/features.md#live-search)
-- [Estimated Reading Time](docs/features.md#estimated-reading-time)
-- [Reading Progress Bar](docs/features.md#reading-progress-bar) *(optional)*
-- ["New Post" tag](docs/features.md#new-post-tag)
-- [Load images on demand](docs/features.md#load-images-on-demand)
-- [Push Menu](docs/features.md#push-menu)
-- [SVG icons](docs/features.md#svg-icons)
-- [Shell script to create posts](docs/features.md#shell-script-to-create-posts)
-- [Tags page](docs/features.md#tags-page)
-- [About page](docs/features.md#about-page)
-- [Contact page](docs/features.md#contact-page)
-- [404 error page](docs/features.md#404-error-page)
-- [Feed RSS](docs/features.md#feed-rss)
-- [Disqus](docs/features.md#disqus) *(optional)*
-- [Featured post](docs/features.md#featured-post) *(optional)*
-- [Home page pagination](docs/features.md#home-page-pagination) *(optional)*
-- [Posts sidebar](docs/features.md#posts-sidebar) *(optional)*
-- [Paginated posts](docs/features.md#paginated-posts) *(optional)*
-- ["Before you go" modal](docs/features.md#before-you-go-modal) *(optional)*
-- [Post recommendation](docs/features.md#post-recommendation)
-- [Netlify CMS ready](docs/features.md#netlify-cms-ready)
-- [Translations](docs/setup.md#translations) **new!**
-- [Math Expressions](docs/features.md#math-expressions) *(optional)* **new!**
+### 使用手册
 
-## SEO
+[Jekyll搭建个人博客](http://leopardpan.cn/2016/10/jekyll_tutorials1/)  :  使用Jekyll搭建个人博客的教程，及如何把这个博客模板修改成你自己的博客，里面也有大量的评论、Jekyll 搭建博客各种环境出现过的问题。
 
-- Google Analytics
-- Meta tags
-- JSON-LD
-- Sitemap.xml
-- Social Media ready
+[HEXO搭建个人博客](http://leopardpan.cn/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/) : 使用 HEXO 基于 Github Page 搭建个人博客， 教程里面累计了大量提问和评论，如果你在搭建博客时遇到问题，可以看看这个教程。 
 
-## Quick Install
 
-In the case you're installing to existing Jekyll project, add this line to your project's `Gemfile`:
+#### 安装Jekyll
 
-```
-gem "jekflix"
-```
+[Jekyll中文官方文档](http://jekyll.bootcss.com/) ， 如果你已经安装过了 Jekyll，可以忽略此处。
 
-Add this line to your project's `_config.yml`:
+> $ gem install jekyll
 
-```
-theme: jekflix
-```
+#### 获取博客模板
 
-And then run:
+> $ git clone https://github.com/leopardpan/leopardpan.github.io.git
 
-```
-$ bundle
-```
+或者直接[下载博客](https://github.com/leopardpan/leopardpan.github.io/archive/master.zip)   
 
-Or install it yourself as:
+进leopardpan.github.io/ 目录下， 开启本地服务 
 
-```
-$ gem install jekflix
-```
+> $ jekyll server
 
-### Theme Colors
+在浏览器输入 [127.0.0.1:4000](127.0.0.1:4000) ， 就可以看到博客效果了。
 
-Create the file `/assets/css/styles.scss` and add:
 
-```
----
----
+### 提示
 
-$themeColor: #ff0a16;
-$primaryDark: #141414;
-$accentDark: #ffffff;
-$lightGray: #f2f2f2;
-$texts: #333333;
+>* 如果你想使用我的模板，请把 _posts/ 目录下的文章都去掉。
+>* 修改 _config.yml 文件里面的内容为你自己的个人信息。
 
-@import "jekflix";
-```
+如果在部署博客的时候发现问题，可以直接在[Issues](https://github.com/leopardpan/leopardpan.github.io/issues)里面提问。        
 
-Modify the variables above to change your theme colors.
 
-### Site configuration
+### 把这个博客变成你自己的博客
 
-Below are some properties you can change in your project `_config.yml`, check the [documentation](docs/settings.md#settings) for more details.
+根据上面【提示】修改过后，在你的github里创建一个username.github.io的仓库，username指的值你的github的用户名。      
+创建完成后，把我的这个模板使用git push到你的username.github.io仓库下就行了。
+搭建博客如果遇到问题可以看看我教程[Jekyll搭建个人博客](http://leopardpan.cn/2016/10/jekyll_tutorials1/)。
 
-```
-# Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
-tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
-show_hero: true
-menu:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
 
-# Social Media Settings
-# Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+### 赞助
 
-# Posts Settings
-show_time_bar: true
-show_modal_on_exit: false
-show_modal_on_finish_post: true
-two_columns_layout: true
+你可以通过下方二维码赞助本项目，资金将用于服务器开销以及今后的公共服务
 
-# Advanced Settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
-language: "en"
-categories_folder: category
-sent_message_url: "/contact/message-sent/"
+感谢所有赞助过本项目的朋友，你们都为本项目贡献了自己的一份力量
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:title/
-collections:
-  authors:
-    output: true
-paginate_path: "/page/:num/"
-show_get_theme_btn: true
-use_logo: false
+<details>
 
-# Content paginator
-paginate_content:
-  enabled: true
-  debug: false
-  collections:
-    - posts
-  auto: false
-  separator: "--page-break--"
-  permalink: "/:num/"
-  seo_canonical: true
-  properties:
-    part:
-      is_generated: true
-    last:
-      is_generated: true
-    single:
-      is_generated: true
+<summary>微信二维码</summary>
+<img width="300" src="http://leopardpan.github.io/images/payimg/weipayimg.jpg" alt="wechat">
+</details>
 
-# SASS
-sass:
-  style: compressed
+<details>
 
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-paginate-content
-```
+<summary>支付宝二维码</summary>
+<img width="300" src="http://leopardpan.github.io/images/payimg/alipayim.jpg" alt="alipay">
+</details>
 
-## Setup
 
-In the case you're cloning this repo, follow those instructions:
+### 效果预览
 
-- [Environment](docs/setup.md#environment)
-- [Installing template](docs/setup.md#installing-template)
-- [Running local](docs/setup.md#running-local)
+#### 头像效果
 
-### Customization
+![](http://leopardpan.github.io/images/readme/icon.gif)
 
-See the [settings documentation](docs/settings.md#settings) to customize layout, titles, social media and more.
+如果你只想要我博客里的头像效果，你只需要拿 leopardpan.github.io/_includes/side-panel.html 文件里面 `头像效果` 和 leopardpan.github.io/css/main.css 里面最后面 `头像效果` 部分就行了。
 
-### Theme
 
-You can easily change the theme colors by changing the file `src/yml/theme.yml`, then running `gulp build` in your terminal.
+***
 
-#### GitHub pages
+#### 博客首页   
 
-It's a known issue that you can't run Gulp when deploying the website into GitHub pages. So, you must change the theme colors and run `gulp build` locally, then push the changes into your repo, there is no other way.
+![](http://leopardpan.github.io//images/readme/img4.png)   
 
-To see how your website is going to look like when you deploy it, run `bundle exec jekyll serve` locally and access `http://127.0.0.1:4000/`.
+***  
 
-## Posts
+#### 每篇文章下面都支持打赏   
 
-Use the [Front Matter properties](docs/post.md#front-matter-properties) to create posts.
+![](http://leopardpan.github.io/images/readme/img3.png)
 
-> **Note:** In the case you're cloning this repo, you can use the available [script](docs/post.md#creating-a-post) to generate posts automatically.
+#### 文章详情   
 
-## Questions?
+![](http://leopardpan.github.io/images/readme/img1.png)
 
-File a [GitHub issue](https://github.com/thiagorossener/jekflix-template/issues/new) please.
 
-## Author
+#### 文章支持标签分类 
 
-[Thiago Rossener](https://rossener.com/)
+![](http://leopardpan.github.io/images/readme/img2.png)
 
-Do you like my work? Buy me a coffee!
+#### 手机端效果
 
-<a href="https://www.buymeacoffee.com/thiagorossener" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<img width="300" src="http://leopardpan.github.io/images/readme/img5.png" alt="wechat">
 
-## License
+#### 感谢   
 
-*Jekflix Template* is available under the MIT license. See the [LICENSE](https://github.com/thiagorossener/jekflix-template/blob/master/LICENSE) file for more info.
+本博客在[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基础上修改的。  
