@@ -12,7 +12,7 @@ url: "http://cevalokas.github.io"
 enableToc: true
 
 # Comment
-comment:
+# comment:
     # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
     # disqus: leopard
     # uyan: 2143225  # 有言id,登录有言官网申请
@@ -23,7 +23,7 @@ social:
     github: cevalokas
     # zhihu: panpanleopard
     # juejin: xxx
-    jianshu: 2ada30d8d0f7
+    # jianshu: 2ada30d8d0f7
     # twitter: 
     mail: caichangheng126@126.com
 
@@ -73,7 +73,7 @@ nav:
 
 # Pagination
 gems: [jekyll-paginate,jekyll-sitemap]
-paginate: 20
+paginate: 40
 paginate_path: "page/:num/"
 
 
