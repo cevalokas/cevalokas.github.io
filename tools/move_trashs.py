@@ -18,5 +18,5 @@ def remove_hyperlinks(md_file_path):
     print(f"Hyperlinks removed from {md_file_path}")
 
 # 使用示例
-md_file_path = r"C:\Users\蔡昌亨\remoulder\笑话存档\中华民族最伟大的是俄罗斯族.md"
+md_file_path = r"C:\Users\蔡昌亨\remoulder\社会思潮\2077.md"
 remove_hyperlinks(md_file_path)
