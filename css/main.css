@@ -1388,13 +1388,15 @@ nav a {
   display: inline-block;
   margin-top: 15px;
   margin-right: 20px;
+  text-align: center; /* 水平居中 */
+  line-height: 40px; /* 调整行高使其垂直居中 */
 }
 
 .nav-menu-item a {
-  padding: 0px;
+  padding: 10px 15px; /* 增加内边距，使点击区域更大 */
   color: #999;
   font-weight: 700;
-  font-size: .8em;
+  font-size: 1em; /* 增加字体大小 */
   text-shadow: none;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
@@ -1429,7 +1431,7 @@ nav a {
   transform: translateY(5px);
 }
 
-.nav-menu-item a:hover{
+.nav-menu-item a:hover {
   color: #fff;
 }
 
@@ -1441,3 +1443,4 @@ nav a {
   transform: translateY(-3px);
 }
 /*导航按钮-end*/
+
