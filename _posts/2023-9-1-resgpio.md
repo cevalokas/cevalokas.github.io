@@ -106,37 +106,31 @@ pi@raspberrypi:~ $ sudo ./ledonoff.sh 18
 2.4 用Python通过PRI.GPIO命令控制GPIO
 用Python控制GPIO，最便捷的方法就是使用python类库，比如树莓派系统本身集成的RPi.GPIO。
 
-在putty的ssh终端输入命令：
-
-进入python交互界面
-pi@raspberrypi:~ $ python
-
->>> 这是python的提示符。
 
 导入python类库RPi.GPIO，命名为别名为GPIO
->>> import RPi.GPIO as GPIO
+```>>> import RPi.GPIO as GPIO```
 
 引入之后，就可以使用 GPIO 模块的函数了。
 
 设置BOARD编码方式，基于BCM
 树莓派3 GPIO分为如下的三种编码方式：物理引脚BOARD编码，BCM编码，以及 wiringPi 编码。
 
->>> GPIO.setmode(GPIO.BCM)
+```>>> GPIO.setmode(GPIO.BCM)```
 
 输出模式
->>> GPIO.setup(18,GPIO.OUT)
+```>>> GPIO.setup(18,GPIO.OUT)```
 
 GPIO17输出高电平，LED点亮
->>> GPIO.output(18,GPIO.HIGH)
+```>>> GPIO.output(18,GPIO.HIGH)```
 
 GPIO17输出低电平，LED熄灭
->>> GPIO.output(18,GPIO.LOW)
+```>>> GPIO.output(18,GPIO.LOW)```
 
 用完后进行清理
->>> GPIO.cleanup()
+```>>> GPIO.cleanup()```
 
 退出python交互界面
->>> Ctrl+D
+```>>> Ctrl+D```
 
 2.5 用Python脚本控制GPIO
 新建一个名为blinky.py的脚本。
@@ -179,7 +173,7 @@ LED闪烁。
 停止运行
 用 Ctrl+C 来中断循环。
 
-3. 借助wiringPi GPIO用C语言控制GPIO
+1. 借助wiringPi GPIO用C语言控制GPIO
 树莓派内核中已经编译自带了gpio的驱动，我们常通过一些第三方写好的库函数来完成具体的操作，比较常见的操作库函数有：
 
 Python GPIO
