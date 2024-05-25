@@ -1,7 +1,7 @@
 # Basic
 title: 蔡昌亨
 subtitle: 个人站
-description: 请教我看清我自己的历史，仿佛它已成为记忆中的灰烬。
+description: 请教我看清我自己的历史，仿佛它已成为记忆中的灰烬。1
 # 头像里面的标题
 avatarTitle: cevalokas
 # 头像里面的描述
@@ -61,7 +61,7 @@ cover_color: clear
 
 # The blog button should not be removed.
 blog_button:
-    title: 博客主页
+    {title: 博客主页, url: './'}
 
 # Navigation buttons in the front page.s
 nav:
