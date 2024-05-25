@@ -1,31 +1,31 @@
 # Basic
 title: 蔡昌亨
-subtitle: 欢迎来到我的个人站点~
-description: TEST互联网的碎片，建立于二十一世纪第三个十年的开端
+subtitle: 个人站
+description: 请教我看清我自己的历史，仿佛它已成为记忆中的灰烬。
 # 头像里面的标题
 avatarTitle: cevalokas
 # 头像里面的描述
-avatarDesc: 通信工程 / 网络安全 / 机器人学 / 机器学习
-url: "http://cevalokas.github.io"
+avatarDesc: 网络安全 / 机器人 / 深度学习
+url: "https://cevalokas.github.io/"
 
 # 博客是否自动生成目录，false为不生成
 enableToc: true
 
-# Comment
+# # Comment
 # comment:
-    # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
-    # disqus: leopard
-    # uyan: 2143225  # 有言id,登录有言官网申请
+#     # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
+#     disqus: leopard
+#     # uyan: 2143225  # 有言id,登录有言官网申请
 
-# Social
+# # Social
 # social:
-#     # weibo: 5366874726 
-#     github: cevalokas
+#     weibo: 5366874726 
+#     github: leopardpan
 #     # zhihu: panpanleopard
 #     # juejin: xxx
-#     # jianshu: 2ada30d8d0f7
+#     jianshu: 2ada30d8d0f7
 #     # twitter: 
-#     mail: caichangheng126@126.com
+#     mail: leopardpan@icloud.com
 
 
 # # 百度统计 
@@ -50,9 +50,9 @@ enableToc: true
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
 
 
-permalink: /:year/:month/:title/
-# Format
-highlighter: rouge
+# permalink: /:year/:month/:title/
+# # Format
+# highlighter: rouge
 
 textColor: #FF0000
 
@@ -73,7 +73,7 @@ nav:
 
 # # Pagination
 # gems: [jekyll-paginate,jekyll-sitemap]
-# paginate: 40
+# paginate: 20
 # paginate_path: "page/:num/"
 
 
