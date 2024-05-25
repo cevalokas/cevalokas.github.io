@@ -33,7 +33,7 @@ def find_and_copy_images(source_folder, image_folder, target_folder):
                     # 复制图片到新的路径，删除空格
                     shutil.copy(image_path, new_image_path)
                     # 替换文本中的引用格式，同时删除空格
-                    content = content.replace(f'![[{match}]]', f'![]({os.path.join(os.path.basename(doc_folder), new_match)})')
+                    content = content.replace(f'![[{match}]]', f'![](/images/{os.path.join(os.path.basename(doc_folder), new_match)})')
                     modified = True
 
             # 如果有修改，更新.md文件
@@ -42,7 +42,7 @@ def find_and_copy_images(source_folder, image_folder, target_folder):
                     file.write(content)
 
 # 设置A，B，C文件夹的路径
-source_folder = './_posts/test'  # Markdown文件所在文件夹
+source_folder = './_posts'  # Markdown文件所在文件夹
 image_folder = r"C:\Users\Lenovo\Desktop\obsidian\images"  # 图片所在文件夹
 target_folder = './images'  # 图片要复制到的文件夹
 
