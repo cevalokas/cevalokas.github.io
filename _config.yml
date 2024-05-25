@@ -60,8 +60,8 @@ textColor: #FF0000
 cover_color: clear
 
 # The blog button should not be removed.
-blog_button:
-    - {title: 所有文章, description: archive, url: '/archive'}   
+# blog_button:
+#     - {title: 所有文章, description: archive, url: '/archive'}   
 
 # Navigation buttons in the front page.s
 nav:
