@@ -712,71 +712,76 @@ img::-moz-selection {
   .btn-mobile-menu_item :hover {
     color: #FFF; 
   }
-
   nav {
     display: inline-block;
-    position: relative; 
+    position: relative;
+    text-align: center; /* 增加居中对齐 */
+    width: 100%; /* 确保 nav 占满父容器宽度 */
   }
+  
   .navigation {
     display: inline-block;
-    float: left;
+    float: none; /* 取消左浮动 */
     position: relative;
-    margin: 0;
-    list-style-type: none; 
+    margin: 0 auto; /* 自动左右外边距以居中 */
+    list-style-type: none;
   }
-
+  
   .btn, .navigation__item a {
     display: inline-block;
     margin-right: 0px;
-    padding: 5px 5px 5px 5px;
-    font-size: .6em;
+    padding: 10px 15px; /* 增加内边距 */
+    font-size: 1.2em; /* 增大字体大小 */
     text-shadow: none;
     color: #BF1827;
   }
+  
   .navigation__item {
     display: inline-block;
     margin-left: 0px;
-    line-height: 1em; 
+    line-height: 1.2em; /* 增加行高 */
   }
-
+  
   .navigation__item a {
     display: inline-block;
     position: relative;
     width: 100%;
     border-color: #666;
     color: #666;
-    /*opacity: .8; */
   }
-
+  
   .navigation__item a:hover {
     color: #fff;
   }
-
+  
   .navigation__item_social {
     display: inline-block;
-    /*margin-right: 20px;*/
     width: 50px;
   }
+  
   .navigation__item_social a {
     position: relative;
     color: #999;
   }
-
+  
   .navigation__item_social a:hover {
     color: #000;
   }
-
+  
   .navigation--social a {
     border: 0px;
-    padding: 10px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px;
   }
+  
   .navigation--social a .label {
-    display: none; 
+    display: none;
   }
+  
   .navigation--social a .icon {
     display: block;
-    font-size: 1.7em; 
+    font-size: 1.7em;
   }
+  
   .pagination {
     display: block;
     margin: 0 0 4em 0; 
