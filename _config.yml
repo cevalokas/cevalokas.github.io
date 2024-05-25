@@ -1,11 +1,11 @@
 # Basic
 title: 蔡昌亨
-subtitle: 个人站
-description: 请教我看清我自己的历史，仿佛它已成为记忆中的灰烬。3
+subtitle: 个人网站
+description: 请教我看清我自己的历史，仿佛它已成为记忆中的灰烬。
 # 头像里面的标题
 avatarTitle: cevalokas
 # 头像里面的描述
-avatarDesc: 网络安全 / 机器人 / 深度学习
+avatarDesc: 网络架构 / 机器人 / 深度学习 / 社会观察
 url: "https://github.com/cevalokas"
 
 # 博客是否自动生成目录，false为不生成
@@ -65,8 +65,8 @@ cover_color: clear
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: 所有文章, description: archive, url: '/archive'}   
-    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 博文列表, description: archive, url: '/archive'}   
+    - {title: 标签分类, description: tags, url: '/tags'}      
     # - {title: 技术支持, description: support, url: '/support'}      
     - {title: 关于我, description: about, url: '/about'}   
     
