@@ -18,14 +18,14 @@ enableToc: true
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
-social:
-    # weibo: 5366874726 
-    github: cevalokas
-    # zhihu: panpanleopard
-    # juejin: xxx
-    # jianshu: 2ada30d8d0f7
-    # twitter: 
-    mail: caichangheng126@126.com
+# social:
+#     # weibo: 5366874726 
+#     github: cevalokas
+#     # zhihu: panpanleopard
+#     # juejin: xxx
+#     # jianshu: 2ada30d8d0f7
+#     # twitter: 
+#     mail: caichangheng126@126.com
 
 
 # # 百度统计 
@@ -67,13 +67,13 @@ blog_button:
 nav:
     - {title: 所有文章, description: archive, url: '/archive'}   
     - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 技术支持, description: support, url: '/support'}      
+    # - {title: 技术支持, description: support, url: '/support'}      
     - {title: 关于我, description: about, url: '/about'}   
     
 
-# Pagination
-gems: [jekyll-paginate,jekyll-sitemap]
-paginate: 40
-paginate_path: "page/:num/"
+# # Pagination
+# gems: [jekyll-paginate,jekyll-sitemap]
+# paginate: 40
+# paginate_path: "page/:num/"
 
 
