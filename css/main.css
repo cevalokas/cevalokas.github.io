@@ -1387,7 +1387,7 @@ nav a {
   position: relative;
   display: inline-block;
   margin-top: 15px;
-  margin-right: 20px;
+  margin-right: 10px;
   text-align: center; /* 水平居中 */
   line-height: 40px; /* 调整行高使其垂直居中 */
 }
@@ -1396,7 +1396,7 @@ nav a {
   padding: 10px 15px; /* 增加内边距，使点击区域更大 */
   color: #999;
   font-weight: 700;
-  font-size: 1em; /* 增加字体大小 */
+  font-size: 10em; /* 增加字体大小 */
   text-shadow: none;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
