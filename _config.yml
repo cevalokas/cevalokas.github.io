@@ -1,11 +1,11 @@
 # Basic
-title: 蔡昌亨
+title: CCH_blog
 subtitle: 个人网站
 description: Not because they are easy, but because they are hard.
 # 头像里面的标题
 avatarTitle: cevalokas
 # 头像里面的描述
-avatarDesc: 网络架构 / 机器人 / 深度学习 / 社会观察
+avatarDesc: 网络 / 机器人 / 深度学习
 url: "https://github.com/cevalokas"
 
 # 博客是否自动生成目录，false为不生成

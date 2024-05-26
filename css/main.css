@@ -1392,16 +1392,14 @@ nav a {
   position: relative;
   display: inline-block;
   margin-top: 15px;
-  margin-right: 10px;
-  text-align: center; /* 水平居中 */
-  line-height: 40px; /* 调整行高使其垂直居中 */
+  margin-right: 20px;
 }
 
 .nav-menu-item a {
-  padding: 10px 15px; /* 增加内边距，使点击区域更大 */
+  padding: 0px;
   color: #999;
   font-weight: 700;
-  font-size: 1em; /* 增加字体大小 */
+  font-size: .8em;
   text-shadow: none;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
@@ -1436,7 +1434,7 @@ nav a {
   transform: translateY(5px);
 }
 
-.nav-menu-item a:hover {
+.nav-menu-item a:hover{
   color: #fff;
 }
 
