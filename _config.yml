@@ -1,11 +1,11 @@
 # Basic
-title: CCH_blog
-subtitle: 个人网站
+title: valoka404
+subtitle: personal website
 description: Not because they are easy, but because they are hard.
 # 头像里面的标题
-avatarTitle: cevalokas
+avatarTitle: valoka404
 # 头像里面的描述
-avatarDesc: 网络 / 机器人 / 深度学习
+avatarDesc: cyber security / robotics / deep learning
 url: "https://github.com/cevalokas"
 
 # 博客是否自动生成目录，false为不生成
