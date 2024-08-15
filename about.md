@@ -20,7 +20,7 @@ title: 关于我
 
 # 我的github
 
-(cevalokas)[https://github.com/cevalokas]
+[cevalokas](https://github.com/cevalokas)
 
 # 联系方式
 
