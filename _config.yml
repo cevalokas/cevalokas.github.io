@@ -1,9 +1,9 @@
 # Basic
-title: valoka404
+title: cevalokas
 subtitle: personal website
 description: Not because they are easy, but because they are hard.
 # 头像里面的标题
-avatarTitle: valoka404
+avatarTitle: cevalokas
 # 头像里面的描述
 avatarDesc: cyber security / robotics / deep learning
 url: "https://github.com/cevalokas"
@@ -17,37 +17,9 @@ enableToc: true
 #     disqus: leopard
 #     # uyan: 2143225  # 有言id,登录有言官网申请
 
-# # Social
-# social:
-#     weibo: 5366874726 
-#     github: leopardpan
-#     # zhihu: panpanleopard
-#     # juejin: xxx
-#     jianshu: 2ada30d8d0f7
-#     # twitter: 
-#     mail: leopardpan@icloud.com
-
-
-# # 百度统计 
-# # 使用博客模板请去掉或者更换 id 
-# baidu:
-#     id: 8ba1c6be0953b6f9c2ba38e57f615421  
-
-# # Google Analytics
-# # 使用博客模板请去掉或者更换 id
-# ga:
-#     id: UA-84134159-3  
-#     host: auto  
-
-
-# 《----------------- 上面的信息修改成你自己的 ---------------------------》
-#
-#
-#  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
-#
-#
-# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+# Social
+social:
+    github: cevalokas
 
 
 permalink: /:year/:month/:title/
