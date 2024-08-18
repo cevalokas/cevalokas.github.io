@@ -42,7 +42,7 @@ nav:
     - {title: 标签, description: tags, url: '/tags'}      
     # - {title: 技术支持, description: support, url: '/support'}      
     - {title: 关于我, description: about, url: '/about'}   
-    
+    - {title: Github主页, description: None, url: "https://github.com/cevalokas"}   
 
 # Pagination
 gems: [jekyll-paginate,jekyll-sitemap]
