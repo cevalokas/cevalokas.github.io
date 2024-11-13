@@ -44,7 +44,7 @@ def find_and_copy_images(source_folder, image_folder, target_folder):
 
 # 设置A，B，C文件夹的路径
 source_folder = './_posts'  # Markdown文件所在文件夹
-image_folder = r"C:\Users\蔡昌亨\Desktop\obsidian\__images"  # 图片所在文件夹
+image_folder = "/home/cch/Desktop/obsidian/__images/"  # 图片所在文件夹
 target_folder = './images'  # 图片要复制到的文件夹
 
 # 调用函数
